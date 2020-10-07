@@ -35,7 +35,7 @@ class Codelab extends React.Component {
 
 }
 
-export class Exercise extends React.Component {
+export class PropsState extends React.Component {
     render() {
         return (
             <Codelab codelabMessage={this.props.indexMessage}> 이게 Children 이다</Codelab>

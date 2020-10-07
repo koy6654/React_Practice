@@ -1,9 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import { Exercise } from './js/App';
+import App from './App';
 
 ReactDOM.render(
-    <Exercise indexMessage="This is index.js message" />,
+    // <PropsState indexMessage="This is index.js message" />,
+    // < Mapping />,
+    <App />,
+
     document.getElementById('root')
 );
